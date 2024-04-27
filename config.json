@@ -1,0 +1,49 @@
+{
+    "ganache" : {
+        "net": "0x539",
+        "registry": "",
+        "mnemonic": "",
+        "providerURL": "http:/127.0.0.1:7545"
+    },
+
+    "sepolia": {
+        "net":"0xaa36a7",
+        "privKey1":"",
+        "privKey2":"",
+        "privKey3": "",
+        "privKey4": "",
+        "privKey5": "",
+        "privKey6": "",
+        "privKey7": "",
+        "privKey8": "",
+        "privKey9": "",
+        "privKey10": "",
+        "registry": "",
+        "providerURL": ""
+    },
+
+    "settings": {
+        "privKeyRAPath": "../src/RegAuthority/privKeyRA.key",
+        "pubKeyRAPath": "../src/RegAuthority/pubKeyRA.key"
+    },
+
+    "server" : { 
+        "ipAddrCRT": "127.0.0.1",
+        "ipAddrSSI": "127.0.0.1",
+        "portCRT": 5000,
+        "portSSI": 5050,
+        "secretPath": "./secretServer/",
+        "domainsFile" : "../test/domains.txt",
+        "validityIntVP": 172800000
+    },
+
+    "perfFiles" : {
+        "createVP" : "../perf/P2-DPKI-Sep.csv",
+        "verifyVP" : "../perf/P3-DPKI-Sep.csv",
+        "verifyCRT" : "",
+        "newEntryPerf": "../perf/TX-newEntry-Sep.csv",
+        "updEntryPerf": "../perf/TX-updEntry-Sep.csv",
+        "DIDresolutionPerf": "../perf/TX-resolve-Sep.csv",
+        "infoCTPerf": "../perf/TX-infoCT-Sep.csv"
+    }
+}
